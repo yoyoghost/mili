@@ -4,6 +4,10 @@
  * @author yoyo
  *
  */
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
 public class TestBean {
 
 	@FieldMeta(aliasName = "姓名")
